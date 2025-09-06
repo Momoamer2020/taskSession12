@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>session12</title>
+      <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div class="container">
+    <h1> Password Generator</h1>
+    <div class="output-container">
+        <input type="text" class="output" id="password" readonly/>
+        <span class="copy" id="copy">copy</span>
+    </div>
+    <div class="optios">
+        <label>Character Length <span id="length-value">0</span></label><br/>
+        <input type="range" min="0" max="20" value="0" id="length" /><br/>
+        <label><input type="checkbox" id="uppercase"/>Include UpperCase Letters</label><br/>
+        <label><input type="checkbox" id="lowercase"/>Include LowerCase Letters</label><br/>
+        <label><input type="checkbox" id="numbers"/>Include Numbers</label><br/>
+        <label><input type="checkbox" id="symbols"/>Include Symbols</label><br/>
+        <button id="generate">GENERATE</button>
+    </div>
+</div>
+<script src="main.js"></script>
+    <!--<script src="classWork12.js"></script>-->
+</body>
+</html>
